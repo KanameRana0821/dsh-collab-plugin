@@ -1,0 +1,9 @@
+# Bundle layer applied when a profile lists @local/dsh-collab. Override this
+# row's config from the profile's cordis.patch.yml (a patch replaces the whole
+# config value, so restate every key you need).
+- insert:
+    - id: collab
+      name: '@local/dsh-collab'
+      config:
+        wakeIdlePeers: true
+        promptContext: true

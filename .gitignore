@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Harness runtime state written into a workspace that enables the hub
+.dsh-collab/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Editor and tooling
+.vscode/
+.idea/
